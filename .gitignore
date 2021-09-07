@@ -1,0 +1,5 @@
+
+dist/
+turkish_name_generatorn.egg-info/
+venv/
+MANIFEST.in
