@@ -6,7 +6,7 @@ setup(
     packages=find_packages(include=['trnamegen']),
     include_package_data=True,
     data_files=[('', ["trnamegen/data/isimler.csv", "trnamegen/data/soyisimler.txt", "trnamegen/data/main.py"])],
-    version='1.0.0',
+    version='1.0.1',
     description='This package generates random Turkish names. You can choose the gender of name and you can get also only first name or last name.',
     long_description=long_description,
     long_description_content_type="text/markdown",
