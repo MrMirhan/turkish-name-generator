@@ -1,7 +1,6 @@
-recursive-include data/ *
-recursive-include data *
-recursive-include data/isimler *.csv
-recursive-include data/soyisimler *.txt
+include *.md
+recursive-include data *.csv
+recursive-include data *.txt
 graft data
 include data/*.txt
 include data/*.csv
