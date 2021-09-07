@@ -1,8 +1,11 @@
-import random
+import random, os
 import pandas as pd
+import data.main as dm
+
+path = os.path.dirname(dm.__file__)
 
 def firstName(ntype=0):
-    df = pd.read_csv("data/isimler.csv")
+    df = pd.read_csv(path + "/isimler.csv")
     if ntype == 0:
         adflist = df['isimler'].tolist()
         return random.choice(adflist)
@@ -22,7 +25,7 @@ def firstName(ntype=0):
         return random.choice(kdflist)
 
 def lastName():
-    stripped_linefile = open("data/soyisimler.txt", "r+", encoding="utf-8")
+    stripped_linefile = open(path + "/soyisimler.txt", "r+", encoding="utf-8")
     slines = []
     def manual_replace(s, char, index):
         return s[:index] + char + s[index +1:]
