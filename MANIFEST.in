@@ -1,6 +1,6 @@
 include *.md
-recursive-include data *.csv
-recursive-include data *.txt
+recursive-include trnamegen data/isimler.csv
+recursive-include trnamegen data/soyisimler.txt
 graft data
-include data/*.txt
-include data/*.csv
+include trnamegen data/soyisimler.txt
+include trnamegen data/isimler.csv

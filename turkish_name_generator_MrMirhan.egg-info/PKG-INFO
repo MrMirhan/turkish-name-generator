@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: turkish-name-generator-MrMirhan
+Version: 1.0.0
+Summary: This package generates random Turkish names. You can choose the gender of name and you can get also only first name or last name.
+Home-page: https://github.com/mrmirhan/turkish-name-generator
+Author: MrMirhan
+Author-email: me@mirhan.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
