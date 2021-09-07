@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 setup(
-    name='turkish-name-generator-MrMirhan',
+    name='turkish-name-generatorn',
     packages=find_packages(include=['trnamegen']),
     include_package_data=True,
     data_files=[('', ["trnamegen/data/isimler.csv", "trnamegen/data/soyisimler.txt"])],
@@ -21,6 +21,4 @@ setup(
     license='MIT',
     install_requires=['pandas'],
     setup_requires=['pandas'],
-    tests_require=['pandas'],
-    test_suite='tests'
 )
