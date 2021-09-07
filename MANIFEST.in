@@ -1,8 +1,6 @@
 include *.md
 recursive-include trnamegen data/isimler.csv
 recursive-include trnamegen data/soyisimler.txt
-recursive-include trnamegen data/main.py
 graft data
 include trnamegen data/soyisimler.txt
 include trnamegen data/isimler.csv
-include trnamegen data/main.py
